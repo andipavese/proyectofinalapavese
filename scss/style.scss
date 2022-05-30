@@ -1,0 +1,18 @@
+body{
+    display:grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+
+}
+
+
+@import "resets";
+@import "variables";
+@import "mixins";
+@import "index";
+@import "carrito";
+@import "formulario";
+@import "galeria";
+@import "quienessomos";
+@import "footer";
+@import "navbar";

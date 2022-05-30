@@ -1,0 +1,103 @@
+body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  background-image: url(../img/tarde8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto";
+}
+.home .anuncio {
+  font-weight: bold;
+}
+.home .titut {
+  font-weight: bold;
+}
+.home .foti {
+  box-shadow: 10px 10px 10px rgb(208, 199, 199);
+  border-radius: 10px;
+}
+
+.carro {
+  background-image: url(../img/naty7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto";
+}
+.carro .tittu {
+  font-weight: bold;
+}
+
+.plantilla {
+  background-image: url(../img/naty15.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.plantilla .relleno {
+  font-weight: bold;
+}
+.plantilla .fotot {
+  box-shadow: 10px 10px 10px rgb(74, 66, 66);
+  border-radius: 10px;
+}
+.plantilla .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 0%;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: black;
+  border: 3px solid black;
+  font-weight: bold;
+}
+.plantilla form {
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 10px 10px 10px 10px rgb(74, 66, 66);
+  margin-bottom: 30px;
+}
+
+.galera {
+  background-image: url(../img/tarde8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto";
+}
+.galera .foton {
+  box-shadow: 10px 10px 10px rgb(222, 214, 214);
+  border-radius: 10px;
+}
+
+.cabina {
+  background-image: url(../img/tarde8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto";
+}
+.cabina .fote {
+  box-shadow: 10px 10px 10px rgb(222, 214, 214);
+  border-radius: 10px;
+}
+
+.iconos {
+  color: rgb(255, 255, 255);
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
